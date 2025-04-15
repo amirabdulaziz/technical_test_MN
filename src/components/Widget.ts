@@ -13,7 +13,7 @@ class Widget {
     return this.dialog.fire(option);
   }
 
-  alertSuccess(title: string = "Success", content: string, cb?: any) {
+  alertSuccess(title: string = "Success", content: string) {
     return this.dialog.fire({
       title: title,
       text: content,
@@ -21,6 +21,7 @@ class Widget {
       heightAuto: false,
     });
   }
+  
 
   alertError(title: string = "Error", content: string) {
     return this.dialog.fire({
