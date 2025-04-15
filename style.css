@@ -1,0 +1,16 @@
+/* Import the Poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+/* Apply the font to the entire application */
+body, p, ion-text, ion-card-content, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Or apply the font to specific elements */
+.header {
+  font-family: 'Poppins', sans-serif;
+}
+
+.button {
+  font-family: 'Poppins', sans-serif;
+}
