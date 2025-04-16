@@ -48,8 +48,6 @@ const ProductListPage: React.FC = () => {
   }, []);
 
 
-
-
   const handleCheckboxChange = (item: Product) => {
     const exists = selectedItems.find((i) => i.id === item.id);
     if (exists) {

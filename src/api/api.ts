@@ -1,8 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
 
-
-
-
 export const getListOfProducts = async (): Promise<AxiosResponse<any>> => {
 
   const base_URL = import.meta.env.VITE_API_URL; 
